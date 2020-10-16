@@ -19,7 +19,7 @@ client.on("ready", () => {
   console.log("This bot is online!");
 
   setInterval(() => {
-    testChannel.send("+hqcoins vovovovo");
+    testChannel.send(".play lekoz");
   }, 14800000);
 });
 
