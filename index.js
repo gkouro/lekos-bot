@@ -13,24 +13,12 @@ client.login(token);
 
 client.on("ready", () => {
   var testChannel = client.channels.find(
-    channel => channel.id === "537065553638981652"
+    channel => channel.id === "733219987619053642"
   );
 
   console.log("This bot is online!");
 
   setInterval(() => {
     testChannel.send(".play lekoz");
-  }, 14800000);
-});
-
-client.on("ready", () => {
-  var testChannel = client.channels.find(
-    channel => channel.id === "537065553638981652"
-  );
-
-  console.log("This bot is online!");
-
-  setInterval(() => {
-    testChannel.send("+hqcoins kallitheacity");
   }, 14800000);
 });
